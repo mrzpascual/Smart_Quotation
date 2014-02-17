@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.smartquotation.app"
+    android:versionCode="1"
+    android:versionName="1.0" >    
+    
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+    
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    
+    <application
+        android:allowBackup="true" 
+        android:icon="@drawable/smart_owl" 
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity 
+            android:name="org.smartquotation.app.QuotationMenu" 
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity 
+            android:name="org.smartquotation.app.Quotation" 
+            android:label="@string/label_list_particulars"
+            android:parentActivityName="org.smartquotation.app.QuotationMenu" />
+        <activity 
+            android:name="org.smartquotation.app.QuotationEdit" 
+            android:label="@string/edit_item"
+            android:parentActivityName="org.smartquotation.app.Quotation" />
+        <activity 
+            android:name="org.smartquotation.app.Client"
+            android:label="@string/label_client_info" 
+             />
+		<activity 
+            android:name="org.smartquotation.app.ExportPDF"
+            android:label="@string/label_client_info" 
+             />
+	</application>
+</manifest> 

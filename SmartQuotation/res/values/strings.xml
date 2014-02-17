@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Smart Quotation</string>
+    <string name="no_item">*** No items listed!</string>
+    <string name="menu_insert">Add Item</string>
+    <string name="menu_clear">Clear List</string>
+    <string name="menu_add_client">Add Client Information</string>
+    <string name="item">Item: </string>
+    <string name="unit_price">Unit Price: </string>
+    <string name="unit_quantity">Unit Quantity: </string>
+    <string name="unit_total_price">Total Price: </string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel item?</string>
+    <string name="edit_item">Edit Item</string>
+    
+    <!-- Hint -->
+    <string name="item_description">* Item Name (Description)</string>
+    <string name="hint_unit_price">* Type unit price</string>
+    <string name="hint_unit_quantity">* Type unit quantity</string>
+    
+    <string name="image_menu_str">Application Logo, smart owl</string>
+    <string name="bttn_goto_list_str">Make a Quote!</string>
+    <!-- Activity Label  -->
+    <string name="label_list_particulars">List of Particulars</string>
+    <string name="label_client_info">Client and Form Information</string>
+    
+    <!-- Client Info Menu -->
+    <string name="menu_save">Save Info</string>
+    <string name="menu_export">Export to PDF</string>
+    <string name="menu_clear_fields">Clear Fields</string>
+    <string name="menu_delete_info">Delete Info</string>
+    
+    <!-- Client -->
+    <string name="pr_num_str">Purchase Request Number: </string>
+    <string name="form_num_str">Form Number:</string>
+    <string name="address_to_str">To: </string>
+    <string name="date_str">Date: </string>
+    <string name="attention_str">Attention: </string>
+    <string name="delivery_str">Delivery: </string>
+	<string name="payment_str">Payment Terms: </string>
+	<string name="validity_str">Validity: </string>
+	
+	<string name="clear_fields_str">Clear All Fields</string>
+	<string name="export_pdf_str">Export to PDF</string>
+</resources>
